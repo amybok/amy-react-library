@@ -1,16 +1,25 @@
 {
   "name": "react-component-library",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.1",
   "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Amy",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
     "@types/react": "^18.3.12",
     "react": "^18.3.1",
+    "rollup": "^4.27.3",
+    "rollup-plugin-dts": "^6.1.1",
     "typescript": "^5.6.3"
-  }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts"
 }
