@@ -1,4 +1,5 @@
 import React from "react";
+import "./Polaroid.css";
 
 interface PolaroidProps {
     label:  string;
