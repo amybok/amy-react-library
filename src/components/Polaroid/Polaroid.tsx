@@ -13,7 +13,7 @@ const Polaroid : React.FC<PolaroidProps>  = ({title}) => {
             </div>
             <div className="overlay tag"/>
             <div className="text"> 
-                {title} Symphony
+                {title || "Symphony"} 
             </div>
 
         </div>

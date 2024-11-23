@@ -9,9 +9,10 @@ export default {
 type Story = StoryObj<typeof Polaroid>;
 
 export const Primary: Story = { args: {
-    title: "sss"
+    title: ""
 } };
 
+//CSF2
 // export const Default: StoryObj = ({title}) => {
 //     return <Polaroid {...title} ></Polaroid>;
 // };
