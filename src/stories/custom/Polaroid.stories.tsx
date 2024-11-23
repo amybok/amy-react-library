@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from "@storybook/react";
-import Polaroid from "../components/Polaroid/Polaroid";
+import Polaroid from "../../components/Polaroid";
 
 export default {
     title: "ReactComponentLibrary/Polaroid",
