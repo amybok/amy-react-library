@@ -1,0 +1,14 @@
+.container {    
+    width: max-content;
+    height: auto;
+    border-radius: 5px;
+    padding: 1px 7px;
+}
+
+.att {
+    color: white;
+    text-align: left;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 2px #0223;
+}
