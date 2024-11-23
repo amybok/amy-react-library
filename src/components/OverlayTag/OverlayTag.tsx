@@ -8,9 +8,9 @@ interface OverlayTagProps {
 
 const OverlayTag : React.FC<OverlayTagProps> = ({title, colour}) => {
     return (
-        <div className="container" style={{backgroundColor:colour}}>
+        <div className="container" style={{backgroundColor:colour || "black"}}>
             <div className="att">
-                {title}
+                {title || "Attribute"}
             </div>
         </div>
     )
