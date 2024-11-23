@@ -2,7 +2,7 @@ import React from "react";
 import "./Polaroid.css";
 
 interface PolaroidProps {
-    label:  string;
+    
 }
 
 const Polaroid  = (props: PolaroidProps) => {
