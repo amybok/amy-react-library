@@ -1,4 +1,4 @@
-import { StoryFn, Meta } from "@storybook/react";
+import { StoryObj, Meta } from "@storybook/react";
 import Polaroid from "../components/Polaroid/Polaroid";
 
 export default {
@@ -6,6 +6,12 @@ export default {
     component: Polaroid,
 } as Meta<typeof Polaroid>;
 
-export const Default: StoryFn = (label) => {
-    return <Polaroid>Button</Polaroid>;
-};
+type Story = StoryObj<typeof Polaroid>;
+
+export const Primary: Story = { args: {
+    title: "sss"
+} };
+
+// export const Default: StoryObj = ({title}) => {
+//     return <Polaroid {...title} ></Polaroid>;
+// };
