@@ -9,6 +9,7 @@ export default {
 type Story = StoryObj<typeof OverlayTag>;
 
 export const Primary: Story = { args: {
-    title: "",
-    colour: ""
+    title: "Greenery",
+    colour: "#EDD5D8",
+    textColour: "#8a4e7c"
 } };

@@ -4,12 +4,13 @@ import "./OverlayTag.css";
 interface OverlayTagProps {
     title?: string;
     colour?: string;
+    textColour?: string;
 }
 
-const OverlayTag : React.FC<OverlayTagProps> = ({title, colour}) => {
+const OverlayTag : React.FC<OverlayTagProps> = ({title, colour, textColour}) => {
     return (
         <div className="container" style={{backgroundColor:colour || "black"}}>
-            <div className="att">
+            <div className="att" style={{color: textColour || "white"}}>
                 {title || "Attribute"}
             </div>
         </div>
