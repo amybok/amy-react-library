@@ -1,0 +1,21 @@
+.container {
+    border: solid 1.5px rgb(139, 138, 138);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0.5em;
+    border-radius: 0px;
+    max-width: fit-content;
+    padding: 2px 8px;
+    align-items: baseline;
+}
+
+.title{
+    max-width: fit-content;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
