@@ -1,5 +1,5 @@
-.container {
-    border: solid 1.5px rgb(139, 138, 138);
+.containerr {
+    border: solid 1.5px #cecece;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;

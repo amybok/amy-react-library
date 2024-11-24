@@ -8,7 +8,7 @@ interface TextBoxProps {
 
 const TextBox : React.FC<TextBoxProps> = ({title, input}) => {
     return (
-        <div className="container">
+        <div className="containerr">
             <div className="title">{title || "title"}:</div>
             <div className="input">{input || ""}</div>
         </div>
