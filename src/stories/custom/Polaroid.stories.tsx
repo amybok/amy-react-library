@@ -9,7 +9,9 @@ export default {
 type Story = StoryObj<typeof Polaroid>;
 
 export const Primary: Story = { args: {
-    title: ""
+    title: "",
+    colour: "",
+    textColour: ""
 } };
 
 //CSF2

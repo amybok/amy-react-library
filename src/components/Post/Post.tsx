@@ -7,15 +7,16 @@ interface PostProps {
 
 const Post : React.FC<PostProps> = ({label}) => {
     return (
-        <div className="background">
+        <div className="postBackground">
             <div className="carousel">
+                <div className="image"></div>
                 <div className="image"></div>
             </div>
             <div className="header">
-                <div className="title">{label || "Title"}</div>
+                <div className="postTitle">{label || "Title"}</div>
                 <div className="overlay tag"/>
             </div>
-            <div className="body text"></div>
+            <div className="bodyText">dolorem ipsum</div>
         </div>
     )
 }

@@ -1,0 +1,53 @@
+.postBackground {
+    height: 100%; 
+    width: 30%; 
+    min-width: 150px;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0.5rem;
+    overflow: hidden;
+    border-radius: 10px;
+    border-left: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+    box-shadow: 2px 2px 2px #0223;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    gap: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+.image {
+    border-radius: 3px;
+    background-color: #a9a9a9;
+    margin-top: 0.5rem;
+    width: 90%;
+    min-height: 150px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.postTitle {
+    padding-bottom: 3px; 
+    margin-left: 7px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    margin-left: 7px;
+    margin-bottom: 3px;
+}
+
+.overlay {
+    margin-left: 7px;
+}
